@@ -121,7 +121,7 @@ main h1, main h2 {
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
 	iframe {
 		width: 430px;
 	}
