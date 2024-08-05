@@ -1,0 +1,165 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Lancelot&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+	background-color: #e4e1e5;
+	font-family: "Merriweather", serif;
+	margin: auto;
+	color: #001123;
+	background-image: linear-gradient(#ddd,#fff);
+}
+
+/* Nav */
+
+.navbar {
+	font-size: 1.5em;
+	width: 100%;
+    box-shadow: 0 1px 5px #ccc;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.navbar-brand{
+	font-size: 1.5em;
+}
+#navbarSupportedContent1{
+	font-family: "Gupter", serif;
+	font-size: 1.2em;
+}
+
+.navbar-nav li{
+	margin-left: 1em;
+}
+
+/* Main */
+
+main {
+	font-family: "Gupter", sans-serif;
+}
+
+
+
+main h1, main h2 {
+	font-family: "Merriweather", sans-serif;
+}
+
+#wedding-carousel {
+	margin-bottom: 0;
+}
+
+#hero1{
+	background: url("../images/Susan and Kevin in Water BNW.png") no-repeat center center;
+	background-size: cover;
+}
+
+#hero2{
+	background: url("../images/Susan and Kevin Running 2 BNW.png") no-repeat center center;
+	background-size: cover;
+}
+
+#hero3{
+	background: url("../images/Susan and Kevin Sitting BNW.png") no-repeat center center;
+	background-size: cover;
+}
+
+.jumbotron {
+	color: white;
+	text-shadow: 0.1em 0.2em 0.3em rgba(0, 0, 0, 0.8);
+	text-align: center;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	min-height: 800px;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  background-size: cover;
+	  -o-background-size: cover;
+}
+
+.jumbotron h1, .jumbotron h2 {
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	font-size: 5em;
+}
+
+.jumbotron p{
+	font-size: 2.5em;
+}
+
+.jumbotron .btn{
+	font-family: "Roboto", sans-serif;
+}
+
+.title{
+	padding: 1em;
+	font-size: 3em;
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+}
+
+#details, #transportation {
+	background-color: #2e2e2e;
+	color: white;
+}
+
+.locations, .locations h3 {
+	font-size: 1.5em;
+}
+
+.text {
+	font-size: 1.1em;
+	padding-bottom: 2em;
+	padding-left: 10em;
+}
+
+@media (max-width: 1280px){
+	.text {
+		padding-left: 2em;
+	}
+}
+
+@media (max-width: 710px) {
+	iframe {
+		width: 430px;
+	}
+}
+
+/* Footer */
+
+footer {
+	margin-top: -1em;
+	padding-top: 3em;
+}
+
+.footer-content {
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 1em;
+	font-weight: 900;
+}
+
+.footer-nav {
+	list-style-type: none;
+	padding: 0;
+}
+
+.footer-nav a {
+	color: black;
+	text-decoration: underline;
+}
+
+#footer-btn {
+	border-radius: 50px;
+	font-size: 1.75em;
+	padding: 0.25em 0.75em;
+}
+
+#watermark {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 0.75em;
+}
